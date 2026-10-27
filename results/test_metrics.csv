@@ -1,0 +1,2 @@
+accuracy,macro_precision,macro_recall,macro_f1,test_log_loss,selected_experiment,epochs
+0.9884393063583815,0.9466666666666667,0.9892266824085006,0.9664256217755784,0.026920330867253102,E2_lr_0.05,46

@@ -1,0 +1,53 @@
+{
+  "dataset_rows": 1728,
+  "feature_columns": [
+    "buying",
+    "maint",
+    "doors",
+    "persons",
+    "lug_boot",
+    "safety"
+  ],
+  "target": "class",
+  "classes": [
+    "unacc",
+    "acc",
+    "good",
+    "vgood"
+  ],
+  "seed": 42,
+  "split": {
+    "train": 1036,
+    "validation": 346,
+    "test": 346
+  },
+  "selected_experiment": "E2_lr_0.05",
+  "selected_parameters": {
+    "hidden": [
+      32
+    ],
+    "learning_rate": 0.05,
+    "batch_size": 32,
+    "max_iter": 800,
+    "solver": "sgd",
+    "activation": "relu",
+    "momentum": 0.9,
+    "learning_rate_schedule": "adaptive"
+  },
+  "test_metrics": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "precision_weighted": 1.0,
+    "recall_weighted": 1.0,
+    "f1_weighted": 1.0
+  },
+  "final_epochs": 313,
+  "final_convergence_warning": false,
+  "python_libraries": {
+    "pandas": "3.0.3",
+    "numpy": "2.5.1",
+    "scikit_learn": "1.9.0"
+  }
+}

@@ -1,0 +1,2 @@
+random_seed,dataset_rows,training_rows,validation_rows,test_rows,encoded_features,selected_experiment,selected_hidden_layer_sizes,selected_learning_rate,selected_batch_size,selected_best_epoch,test_accuracy,test_macro_precision,test_macro_recall,test_macro_f1,test_log_loss
+42,1728,1036,346,346,21,E2_lr_0.05,"(32,)",0.05,32,46,0.9884393063583815,0.9466666666666667,0.9892266824085006,0.9664256217755784,0.026920330867253102
